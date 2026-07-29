@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+   <html lang="en"> 
+    <head>
+        <meta charset= "UTF-8">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <title> Brick Buster </title>
+        <link rel="stylesheet"href="BrickBuster.css"> 
+    </head>
+    <body> 
+        <div id="startingScreen">
+            Welcome to Brick Buster!
+            <button onclick="startButton()">Start Game</button>
+        </div>
+        <h1> Brick Buster </h1>
+
+        <canvas id ="board"></canvas>
+        <h2> Score: <span id="score">0</span></h2>
+        <audio id ="backgroundMusic" src="musicforbrickbuster.mp3"></audio>
+        <audio id = "PointsSound" src = "pointssoundeffect.mp3"></audio>
+              
+        <h2> Lives Left: <span id = "lives">3</span></h2>
+        
+        <script src="BrickBusterwithscoreandlives.js"></script>
+        
+        <button onclick = "showBestScore()" > Show Best Score </button>
+        <button onclick = "reset()" > Restart Game </button>    
+        
+        <audio id = "GameOverSoundEffect"src = "GameOverSound.mp3"></audio>
+        
+    </body>
+</html>

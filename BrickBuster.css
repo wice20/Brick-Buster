@@ -1,0 +1,27 @@
+body{
+   
+    background-color:darkcyan;
+    text-align:center;
+
+}
+#board{
+    
+    background-color : rgb(7, 2, 108);
+    border-top: 8px solid rgb(0, 0 , 0); 
+    border-left: 8px solid rgb( 0, 0, 0 ); 
+    border-right: 8px solid rgb( 0, 0, 0 );
+
+}  
+#startingScreen{
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    background-color : white;
+    padding:3px;
+    text-align:center;
+    border:30px solid black;
+    border-radius:10px;
+    font-size:20px;
+    z-index:10;
+}
